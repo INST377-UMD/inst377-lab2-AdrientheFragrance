@@ -1,0 +1,60 @@
+body {
+    background-color: #ebdddd;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+
+h1 {
+    color: rosybrown;
+    margin-top: 150px;
+}
+
+h3 {
+    color: #634f3e;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #634f3e;
+}
+
+
+input[type="text"] {
+    padding: 8px 20px 8px 20px;
+    margin: 2px 2px;
+    display: inline-block;
+    border: 2px solid #b49f9f;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+input[id="message"] {
+    padding: 50px 140px 50px 140px;
+    margin: 2px 2px;
+    display: inline-block;
+    border: 2px solid #b49f9f;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+input[type=submit] {
+    background-color: #6e9486;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    padding: 12px 30px 12px 30px;
+    margin: 2px 2px;
+    border: none;
+    border-radius: 30px;
+}
+
+input[type=submit]:hover {
+    background-color: #578473;
+}
